@@ -8,7 +8,7 @@ class Persona:
         return f'Hola {other_person.name}, me llamo {self.name}'
 
 
-juan = Persona('Juan', 30)
-niyi = Persona('Niyi', 29)
-
-juan.saluda(niyi)
+if __name__ == '__main__':
+    juan = Persona('Juan', 30)
+    niyi = Persona('Niyi', 29)      
+    print(juan.saluda(niyi))
